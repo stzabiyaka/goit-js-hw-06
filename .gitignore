@@ -105,3 +105,6 @@ dist
 
 # Prettier file
 .prettierrc.json
+package.json
+package-lock.json
+.eslintrc.json
