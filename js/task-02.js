@@ -1,6 +1,6 @@
 const ingredients = ['Potatoes', 'Mushrooms', 'Garlic', 'Tomatos', 'Herbs', 'Condiments'];
 
-const ingredientsList = document.querySelector('#ingredients');
+const ingredientsListRef = document.querySelector('#ingredients');
 
 const makeiIngredientsItems = ingredientsArray => {
   return ingredientsArray.map(ingredient => {
@@ -12,4 +12,4 @@ const makeiIngredientsItems = ingredientsArray => {
 };
 
 const ingredientsItems = makeiIngredientsItems(ingredients);
-ingredientsList.append(...ingredientsItems);
+ingredientsListRef.append(...ingredientsItems);
