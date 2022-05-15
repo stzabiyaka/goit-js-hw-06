@@ -10,6 +10,9 @@ const handleBlur = () => {
   }
 
   inputRef.classList.add('invalid');
+  if (inputRef.classList.contains('valid')) {
+    inputRef.classList.remove('valid');
+  }
 };
 
 inputRef.addEventListener('blur', handleBlur);
